@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Maven Pro", sans-serif;
 }
 
 html {
   font-size: 62.5%;
 }
-body {
-  font-family: "Maven Pro", sans-serif;
-}
+
 h1 {
   font-size: 2.6rem;
 }
@@ -51,10 +50,10 @@ button {
 }
 nav {
   display: flex;
-  width: 90%;
+
   margin: auto;
   padding: 2rem;
-  min-height: 10vh;
+
   align-items: center;
 }
 nav ul {
@@ -73,7 +72,8 @@ nav ul {
 .hero {
   background: linear-gradient(rgb(32, 31, 31), transparent),
     url(/assets/images/coding.jpg);
-  min-height: 90vh;
+  height: 100vh;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -86,4 +86,39 @@ nav ul {
 }
 .hero h3 {
   padding: 2rem;
+}
+
+.about-me {
+  width: 100%;
+  padding: 10rem 0rem;
+  background-color: #9896c4;
+}
+.about-me img {
+  height: auto;
+  width: 43rem;
+}
+.about-text {
+  width: 55rem;
+}
+.about-main {
+  width: 130rem;
+  max-width: 95%;
+  margin: -8.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h3 {
+  color: white;
+
+  font-size: 6.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.about-text p {
+  color: antiquewhite;
+  letter-spacing: 0.1rem;
+  line-height: 2.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
 }
