@@ -17,8 +17,10 @@ input,
 p {
   font-size: 2rem;
 }
+
 h2 {
   font-size: 4.8rem;
+  font-weight: normal;
 }
 h3 {
   font-size: 3rem;
@@ -31,9 +33,17 @@ a {
   text-decoration: none;
   color: white;
 }
+button {
+  padding: 1.5rem 5.5rem;
+  background: rgb(159, 125, 60);
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
 
 .main-head {
-  background: rgb(58, 58, 161);
+  background: rgb(68, 59, 42);
   color: white;
 }
 nav {
@@ -53,4 +63,23 @@ nav ul {
 }
 #logo {
   flex: 2 1 40rem;
+  font-weight: normal;
+}
+
+.hero {
+  background: linear-gradient(rgb(32, 31, 31), transparent),
+    url(/assets/images/coding.jpg);
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 2rem;
 }
