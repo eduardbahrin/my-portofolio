@@ -125,7 +125,7 @@ nav ul {
 }
 
 .projects-head {
-  background: grey;
+  background: #443b2a;
   padding: auto;
   min-height: 10vh;
   display: flex;
@@ -152,6 +152,43 @@ nav ul {
   margin: 2rem 5rem;
 }
 .cards img {
-  height: 225px;
+  height: 22rem;
   width: auto;
+}
+
+#contact-me {
+  min-height: 100vh;
+  background: rgb(211 189 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  color: rgb(169, 120, 120);
+  border-radius: 20px;
+}
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.form-wrapper input {
+  padding: 1rem 3rem;
 }
