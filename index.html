@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Carter+One&family=Maven+Pro:wght@400;500&display=swap"
       rel="stylesheet"
     />
@@ -64,47 +68,87 @@
           </div>
         </div>
       </section>
+
       <section id="projects" class="projects">
-        <header class="projects-head">
+        <div class="projects-head">
           <h3>PROJECTS</h3>
-        </header>
-        <div class="cards">
-          <div class="projects-card">
-            <img src="/assets/images/horiseon-refactor-screenshot.png" alt="" />
+        </div>
+
+        <div class="main-project">
+          <div class="project--internal-section">
             <h4>Horiseon Code Refactor</h4>
-            
+
+            <img
+              src="/assets/images/horiseon-refactor-screenshot.png"
+              alt=""
+              class="main-project--image"
+            />
           </div>
-          <div class="projects-card">
-            <img src="/assets/images/burger.jpg" alt="" />
-            <h4>Project#2</h4>
-            
-            
+          <div class="project--internal-section">
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              hic quia magni quo reprehenderit totam inventore nobis earum nemo
+              dolor aliquid, sint autem libero nam sapiente magnam facere ex
+              vitae.
+            </div>
+
+            <div>Link to deployed application</div>
+            <div>Link to gihub</div>
           </div>
-          <div class="projects-card">
+        </div>
+
+        <div class="cards">
+          <article class="projects-card">
+            <div class="project--internal-section">
+              <img src="/assets/images/burger.jpg" alt="" />
+              <h4>Project#2</h4>
+            </div>
+            <div class="project--internal-section">
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci hic quia magni quo reprehenderit totam inventore nobis
+                earum nemo dolor aliquid, sint autem libero nam sapiente magnam
+                facere ex vitae.
+              </div>
+
+              <div>Link to deployed application</div>
+              <div>Link to gihub</div>
+            </div>
+          </article>
+          <article class="projects-card">
             <img src="/assets/images/city.jpg" alt="" />
             <h4>Project#3</h4>
-            
-          </div>
-          <div class="projects-card">
+          </article>
+          <article class="projects-card">
             <img src="/assets/images/clothes.jpg" alt="" />
             <h4>Project#4</h4>
-           
-            </p>
-          </div>
-          <div class="projects-card">
+          </article>
+          <article class="projects-card">
             <img src="/assets/images/game.jpg" alt="" />
             <h4>Project#5</h4>
-            
-            </p>
-          </div>
+          </article>
         </div>
       </section>
 
-      <section id="contact-me">
+      <section id="contact-me" class="contact-me">
+        <section class="social-media-links">
+          <div class="social-link">
+            <a href="https://github.com/eduardbahrin" target="_blank"
+              ><i class="fa-brands fa-github fa-2xl"></i
+            ></a>
+          </div>
+          <div class="social-link">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+          </div>
+          <div class="social-link">
+            <i class="fa-brands fa-facebook fa-2xl"></i>
+          </div>
+        </section>
         <div class="form-wrapper">
           <header class="form-head">
             <h2>Let's get in touch.</h2>
           </header>
+
           <form>
             <div class="name-form">
               <label for="name">Name:</label>
@@ -120,6 +164,20 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <h5>Eduard Bahrin &copy;</h5>
+        <ul>
+          <li>
+            <a href="/assets/icons/facebook.svg"></a>
+          </li>
+          <li>
+            <a href="/assets/icons/github.svg"></a>
+          </li>
+          <li><a href="/assets/icons/linkedin-in.svg"></a></li>
+          <li><a href="/assets/icons/yahoo.svg"></a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
