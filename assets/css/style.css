@@ -244,3 +244,15 @@ footer {
   color: white;
   background: rgb(68 59 42);
 }
+.footer_container {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+}
+footer h5 {
+  flex: 1 1 40rem;
+  text-align: center;
+}
