@@ -9,7 +9,7 @@ The application was built using HTML, CSS only.
 
 ## Screenshots
 
-![Eduard's Personal Portofolio](./assets/images/Eduard%20Bahrin%20Personal%20Portofolio.png)
+![Eduard's Personal Portofolio](./assets/images/my%20portofolio.png)
 
 ## Link to deployed application
 
