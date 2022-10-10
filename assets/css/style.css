@@ -72,6 +72,10 @@ nav ul {
   font-weight: normal;
   font-family: "Carter One", cursive;
 }
+#logo span {
+  color: rgb(159, 125, 60);
+  font-family: "Carter One", cursive;
+}
 
 .hero {
   background: linear-gradient(rgb(32, 31, 31), transparent),
@@ -90,6 +94,15 @@ nav ul {
 }
 .hero h3 {
   padding: 2rem;
+}
+.button {
+  padding: 1.5rem 5.5rem;
+  background: rgb(159, 125, 60);
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 0.8rem;
 }
 /* about-me section */
 .about-me {
