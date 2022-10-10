@@ -1,3 +1,4 @@
+/* global styles */
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +45,8 @@ button {
   cursor: pointer;
 }
 
+/* NAV section with Hero */
+
 .main-head {
   background: rgb(68, 59, 42);
   color: white;
@@ -87,7 +90,7 @@ nav ul {
 .hero h3 {
   padding: 2rem;
 }
-
+/* about-me section */
 .about-me {
   width: 100%;
   height: 100vh;
@@ -123,7 +126,7 @@ nav ul {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
 }
-
+/* project section */
 .projects {
   display: flex;
   flex-direction: column;
@@ -188,7 +191,7 @@ nav ul {
   height: auto;
   border: 1px solid red;
 }
-
+/* contact-me section */
 .contact-me {
   min-height: 100vh;
   background: rgb(211 189 214);
@@ -239,7 +242,7 @@ nav ul {
 .form-wrapper input {
   padding: 1rem 3rem;
 }
-
+/* footer section */
 footer {
   color: white;
   background: rgb(68 59 42);
