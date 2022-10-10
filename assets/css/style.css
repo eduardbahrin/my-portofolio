@@ -31,6 +31,7 @@ h3 {
 h4,
 h5 {
   font-size: 2.8rem;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -146,6 +147,7 @@ nav ul {
   flex-direction: column;
   align-items: center;
   width: 100vw;
+  background: #9f7d3c;
 }
 
 .main-project {
@@ -157,6 +159,7 @@ nav ul {
 .main-project--image {
   width: 32rem;
   height: auto;
+  border-radius: 0.8rem;
 }
 
 .project--internal-section {
@@ -166,6 +169,8 @@ nav ul {
   justify-content: center;
   width: 50%;
   font-size: 1.5rem;
+  color: white;
+  text-align: center;
 }
 
 .projects-head {
@@ -202,6 +207,7 @@ nav ul {
 .cards img {
   width: 80%;
   height: auto;
+  border-radius: 0.7rem;
 }
 /* contact-me section */
 .contact-me {
