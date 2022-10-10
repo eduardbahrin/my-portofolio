@@ -1,4 +1,4 @@
-#my-portofolio
+# my-portofolio
 
 ## Description
 A project that is designed and working as a personal portofolio  to showcase things I learned while attending a Full-Stack Bootcamp
