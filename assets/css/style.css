@@ -136,12 +136,10 @@ nav ul {
   justify-content: space-evenly;
   width: 66.5%;
   margin-top: 2rem;
-  border: 1px solid red;
 }
 .main-project--image {
   width: 32rem;
   height: auto;
-  border: 1px solid green;
 }
 
 .project--internal-section {
@@ -150,7 +148,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   width: 50%;
-  border: 1px solid green;
+  font-size: 1.5rem;
 }
 
 .projects-head {
@@ -163,6 +161,7 @@ nav ul {
   align-items: center;
   color: white;
   text-align: center;
+  width: inherit;
 }
 .projects-head h3 {
   padding: 1rem;
@@ -183,8 +182,6 @@ nav ul {
   margin: 2rem 5rem;
   display: flex;
   justify-content: center;
-
-  border: 1px solid red;
 }
 .cards img {
   width: 80%;
@@ -219,7 +216,6 @@ nav ul {
   align-items: center;
   width: 57%;
   height: 100px;
-  border: 1px red solid;
 }
 
 .social-link {
