@@ -212,7 +212,6 @@ nav ul {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  border: 1px red solid;
 }
 
 .form-wrapper {
@@ -272,7 +271,7 @@ footer h5 {
   flex: 1 1 40rem;
   text-align: center;
 }
-
+/* Screen media queries */
 @media screen and (max-width: 932px) {
   html {
     font-size: 30%;
