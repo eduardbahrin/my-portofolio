@@ -58,6 +58,7 @@ nav {
   margin: auto;
   padding: 2rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 nav ul {
   display: flex;
@@ -179,7 +180,6 @@ nav ul {
   justify-content: center;
 }
 .projects-card {
-  /* flex: 1 1 25rem; */
   width: 30%;
   min-height: 40vh;
   margin: 2rem 5rem;
@@ -258,4 +258,16 @@ footer {
 footer h5 {
   flex: 1 1 40rem;
   text-align: center;
+}
+
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
 }
